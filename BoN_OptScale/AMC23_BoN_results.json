@@ -1,0 +1,322 @@
+[
+  {
+    "N": 1,
+    "accuracy": 0.825,
+    "token_count": 4802.225
+  },
+  {
+    "N": 2,
+    "accuracy": 0.875,
+    "token_count": 9900.25
+  },
+  {
+    "N": 3,
+    "accuracy": 0.9,
+    "token_count": 14754.825
+  },
+  {
+    "N": 4,
+    "accuracy": 0.925,
+    "token_count": 20057.125
+  },
+  {
+    "N": 5,
+    "accuracy": 0.925,
+    "token_count": 25379.85
+  },
+  {
+    "N": 6,
+    "accuracy": 0.95,
+    "token_count": 30356.325
+  },
+  {
+    "N": 7,
+    "accuracy": 0.95,
+    "token_count": 35464.45
+  },
+  {
+    "N": 8,
+    "accuracy": 0.95,
+    "token_count": 40510.85
+  },
+  {
+    "N": 9,
+    "accuracy": 0.95,
+    "token_count": 45451.65
+  },
+  {
+    "N": 10,
+    "accuracy": 0.95,
+    "token_count": 50597.1
+  },
+  {
+    "N": 11,
+    "accuracy": 0.95,
+    "token_count": 55385.75
+  },
+  {
+    "N": 12,
+    "accuracy": 0.95,
+    "token_count": 60655.15
+  },
+  {
+    "N": 13,
+    "accuracy": 0.95,
+    "token_count": 65722.7
+  },
+  {
+    "N": 14,
+    "accuracy": 0.95,
+    "token_count": 70344.525
+  },
+  {
+    "N": 15,
+    "accuracy": 0.95,
+    "token_count": 75541.275
+  },
+  {
+    "N": 16,
+    "accuracy": 0.95,
+    "token_count": 79880.7
+  },
+  {
+    "N": 17,
+    "accuracy": 0.95,
+    "token_count": 84647.775
+  },
+  {
+    "N": 18,
+    "accuracy": 0.95,
+    "token_count": 89852.3
+  },
+  {
+    "N": 19,
+    "accuracy": 0.95,
+    "token_count": 94768.225
+  },
+  {
+    "N": 20,
+    "accuracy": 0.95,
+    "token_count": 99565.425
+  },
+  {
+    "N": 21,
+    "accuracy": 0.95,
+    "token_count": 104303.725
+  },
+  {
+    "N": 22,
+    "accuracy": 0.95,
+    "token_count": 109188.275
+  },
+  {
+    "N": 23,
+    "accuracy": 0.95,
+    "token_count": 114673.925
+  },
+  {
+    "N": 24,
+    "accuracy": 0.95,
+    "token_count": 119225.65
+  },
+  {
+    "N": 25,
+    "accuracy": 0.95,
+    "token_count": 123867.025
+  },
+  {
+    "N": 26,
+    "accuracy": 0.95,
+    "token_count": 129106.0
+  },
+  {
+    "N": 27,
+    "accuracy": 0.95,
+    "token_count": 134057.325
+  },
+  {
+    "N": 28,
+    "accuracy": 0.95,
+    "token_count": 139338.025
+  },
+  {
+    "N": 29,
+    "accuracy": 0.95,
+    "token_count": 144281.375
+  },
+  {
+    "N": 30,
+    "accuracy": 0.95,
+    "token_count": 148741.85
+  },
+  {
+    "N": 31,
+    "accuracy": 0.95,
+    "token_count": 153200.575
+  },
+  {
+    "N": 32,
+    "accuracy": 0.95,
+    "token_count": 157961.85
+  },
+  {
+    "N": 33,
+    "accuracy": 0.95,
+    "token_count": 162736.725
+  },
+  {
+    "N": 34,
+    "accuracy": 0.95,
+    "token_count": 167835.825
+  },
+  {
+    "N": 35,
+    "accuracy": 0.95,
+    "token_count": 172540.725
+  },
+  {
+    "N": 36,
+    "accuracy": 0.95,
+    "token_count": 177912.3
+  },
+  {
+    "N": 37,
+    "accuracy": 0.95,
+    "token_count": 182737.125
+  },
+  {
+    "N": 38,
+    "accuracy": 0.95,
+    "token_count": 187767.85
+  },
+  {
+    "N": 39,
+    "accuracy": 0.95,
+    "token_count": 192539.5
+  },
+  {
+    "N": 40,
+    "accuracy": 0.95,
+    "token_count": 197435.9
+  },
+  {
+    "N": 41,
+    "accuracy": 0.95,
+    "token_count": 202075.45
+  },
+  {
+    "N": 42,
+    "accuracy": 0.95,
+    "token_count": 206609.4
+  },
+  {
+    "N": 43,
+    "accuracy": 0.95,
+    "token_count": 211787.2
+  },
+  {
+    "N": 44,
+    "accuracy": 0.95,
+    "token_count": 216881.625
+  },
+  {
+    "N": 45,
+    "accuracy": 0.95,
+    "token_count": 221476.275
+  },
+  {
+    "N": 46,
+    "accuracy": 0.95,
+    "token_count": 226048.625
+  },
+  {
+    "N": 47,
+    "accuracy": 0.95,
+    "token_count": 230984.6
+  },
+  {
+    "N": 48,
+    "accuracy": 0.95,
+    "token_count": 235523.425
+  },
+  {
+    "N": 49,
+    "accuracy": 0.95,
+    "token_count": 240305.325
+  },
+  {
+    "N": 50,
+    "accuracy": 0.95,
+    "token_count": 245210.025
+  },
+  {
+    "N": 51,
+    "accuracy": 0.95,
+    "token_count": 250190.375
+  },
+  {
+    "N": 52,
+    "accuracy": 0.95,
+    "token_count": 254755.6
+  },
+  {
+    "N": 53,
+    "accuracy": 0.95,
+    "token_count": 259284.775
+  },
+  {
+    "N": 54,
+    "accuracy": 0.95,
+    "token_count": 264520.15
+  },
+  {
+    "N": 55,
+    "accuracy": 0.95,
+    "token_count": 269519.2
+  },
+  {
+    "N": 56,
+    "accuracy": 0.95,
+    "token_count": 274157.375
+  },
+  {
+    "N": 57,
+    "accuracy": 0.95,
+    "token_count": 278915.175
+  },
+  {
+    "N": 58,
+    "accuracy": 0.95,
+    "token_count": 283670.35
+  },
+  {
+    "N": 59,
+    "accuracy": 0.95,
+    "token_count": 288919.525
+  },
+  {
+    "N": 60,
+    "accuracy": 0.95,
+    "token_count": 293953.25
+  },
+  {
+    "N": 61,
+    "accuracy": 0.95,
+    "token_count": 298380.175
+  },
+  {
+    "N": 62,
+    "accuracy": 0.95,
+    "token_count": 303386.75
+  },
+  {
+    "N": 63,
+    "accuracy": 0.95,
+    "token_count": 307975.025
+  },
+  {
+    "N": 64,
+    "accuracy": 0.95,
+    "token_count": 312240.65
+  }
+]

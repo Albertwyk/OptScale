@@ -1,0 +1,1044 @@
+{
+  "esc_default": {
+    "accuracy": 0.6,
+    "average_token_count": 359467.26666666666,
+    "early_stop_rate": 0.7,
+    "correct": 18,
+    "total_tokens": 10784018
+  },
+  "asc_default": {
+    "accuracy": 0.6,
+    "average_token_count": 232872.43333333332,
+    "early_stop_rate": 0.8666666666666667,
+    "correct": 18,
+    "total_tokens": 6986173
+  },
+  "esc_max_n_sweep": [
+    {
+      "max_n": 1,
+      "accuracy": 0.5333333333333333,
+      "average_token_count": 9884.466666666667,
+      "early_stop_rate": 0.0,
+      "correct": 16,
+      "total_tokens": 296534
+    },
+    {
+      "max_n": 2,
+      "accuracy": 0.5333333333333333,
+      "average_token_count": 19652.133333333335,
+      "early_stop_rate": 0.0,
+      "correct": 16,
+      "total_tokens": 589564
+    },
+    {
+      "max_n": 3,
+      "accuracy": 0.5333333333333333,
+      "average_token_count": 29590.166666666668,
+      "early_stop_rate": 0.0,
+      "correct": 16,
+      "total_tokens": 887705
+    },
+    {
+      "max_n": 4,
+      "accuracy": 0.5666666666666667,
+      "average_token_count": 40000.13333333333,
+      "early_stop_rate": 0.0,
+      "correct": 17,
+      "total_tokens": 1200004
+    },
+    {
+      "max_n": 5,
+      "accuracy": 0.6,
+      "average_token_count": 49272.13333333333,
+      "early_stop_rate": 0.0,
+      "correct": 18,
+      "total_tokens": 1478164
+    },
+    {
+      "max_n": 6,
+      "accuracy": 0.5666666666666667,
+      "average_token_count": 57292.63333333333,
+      "early_stop_rate": 0.26666666666666666,
+      "correct": 17,
+      "total_tokens": 1718779
+    },
+    {
+      "max_n": 7,
+      "accuracy": 0.6,
+      "average_token_count": 65723.46666666666,
+      "early_stop_rate": 0.26666666666666666,
+      "correct": 18,
+      "total_tokens": 1971704
+    },
+    {
+      "max_n": 8,
+      "accuracy": 0.6,
+      "average_token_count": 74964.2,
+      "early_stop_rate": 0.26666666666666666,
+      "correct": 18,
+      "total_tokens": 2248926
+    },
+    {
+      "max_n": 9,
+      "accuracy": 0.6,
+      "average_token_count": 84099.26666666666,
+      "early_stop_rate": 0.26666666666666666,
+      "correct": 18,
+      "total_tokens": 2522978
+    },
+    {
+      "max_n": 10,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 92038.8,
+      "early_stop_rate": 0.26666666666666666,
+      "correct": 19,
+      "total_tokens": 2761164
+    },
+    {
+      "max_n": 11,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 100261.2,
+      "early_stop_rate": 0.3333333333333333,
+      "correct": 19,
+      "total_tokens": 3007836
+    },
+    {
+      "max_n": 12,
+      "accuracy": 0.5666666666666667,
+      "average_token_count": 108135.76666666666,
+      "early_stop_rate": 0.3333333333333333,
+      "correct": 17,
+      "total_tokens": 3244073
+    },
+    {
+      "max_n": 13,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 115299.16666666667,
+      "early_stop_rate": 0.3333333333333333,
+      "correct": 19,
+      "total_tokens": 3458975
+    },
+    {
+      "max_n": 14,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 122875.53333333334,
+      "early_stop_rate": 0.3333333333333333,
+      "correct": 19,
+      "total_tokens": 3686266
+    },
+    {
+      "max_n": 15,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 131443.6,
+      "early_stop_rate": 0.3333333333333333,
+      "correct": 19,
+      "total_tokens": 3943308
+    },
+    {
+      "max_n": 16,
+      "accuracy": 0.6666666666666666,
+      "average_token_count": 137752.23333333334,
+      "early_stop_rate": 0.4,
+      "correct": 20,
+      "total_tokens": 4132567
+    },
+    {
+      "max_n": 17,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 145323.4,
+      "early_stop_rate": 0.4,
+      "correct": 19,
+      "total_tokens": 4359702
+    },
+    {
+      "max_n": 18,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 152212.06666666668,
+      "early_stop_rate": 0.4,
+      "correct": 19,
+      "total_tokens": 4566362
+    },
+    {
+      "max_n": 19,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 159278.43333333332,
+      "early_stop_rate": 0.4,
+      "correct": 19,
+      "total_tokens": 4778353
+    },
+    {
+      "max_n": 20,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 167155.76666666666,
+      "early_stop_rate": 0.4,
+      "correct": 19,
+      "total_tokens": 5014673
+    },
+    {
+      "max_n": 21,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 173184.4,
+      "early_stop_rate": 0.5,
+      "correct": 19,
+      "total_tokens": 5195532
+    },
+    {
+      "max_n": 22,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 178744.0,
+      "early_stop_rate": 0.5,
+      "correct": 19,
+      "total_tokens": 5362320
+    },
+    {
+      "max_n": 23,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 184055.06666666668,
+      "early_stop_rate": 0.5,
+      "correct": 19,
+      "total_tokens": 5521652
+    },
+    {
+      "max_n": 24,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 188946.7,
+      "early_stop_rate": 0.5,
+      "correct": 19,
+      "total_tokens": 5668401
+    },
+    {
+      "max_n": 25,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 194587.96666666667,
+      "early_stop_rate": 0.5,
+      "correct": 19,
+      "total_tokens": 5837639
+    },
+    {
+      "max_n": 26,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 199248.86666666667,
+      "early_stop_rate": 0.5333333333333333,
+      "correct": 19,
+      "total_tokens": 5977466
+    },
+    {
+      "max_n": 27,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 204247.33333333334,
+      "early_stop_rate": 0.5333333333333333,
+      "correct": 19,
+      "total_tokens": 6127420
+    },
+    {
+      "max_n": 28,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 209745.4,
+      "early_stop_rate": 0.5333333333333333,
+      "correct": 19,
+      "total_tokens": 6292362
+    },
+    {
+      "max_n": 29,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 215168.4,
+      "early_stop_rate": 0.5333333333333333,
+      "correct": 19,
+      "total_tokens": 6455052
+    },
+    {
+      "max_n": 30,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 220419.3,
+      "early_stop_rate": 0.5333333333333333,
+      "correct": 19,
+      "total_tokens": 6612579
+    },
+    {
+      "max_n": 31,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 224728.7,
+      "early_stop_rate": 0.6,
+      "correct": 19,
+      "total_tokens": 6741861
+    },
+    {
+      "max_n": 32,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 229286.5,
+      "early_stop_rate": 0.6,
+      "correct": 19,
+      "total_tokens": 6878595
+    },
+    {
+      "max_n": 33,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 234302.63333333333,
+      "early_stop_rate": 0.6,
+      "correct": 19,
+      "total_tokens": 7029079
+    },
+    {
+      "max_n": 34,
+      "accuracy": 0.6,
+      "average_token_count": 238731.06666666668,
+      "early_stop_rate": 0.6,
+      "correct": 18,
+      "total_tokens": 7161932
+    },
+    {
+      "max_n": 35,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 243359.2,
+      "early_stop_rate": 0.6,
+      "correct": 19,
+      "total_tokens": 7300776
+    },
+    {
+      "max_n": 36,
+      "accuracy": 0.6,
+      "average_token_count": 247999.6,
+      "early_stop_rate": 0.6,
+      "correct": 18,
+      "total_tokens": 7439988
+    },
+    {
+      "max_n": 37,
+      "accuracy": 0.6,
+      "average_token_count": 252533.83333333334,
+      "early_stop_rate": 0.6,
+      "correct": 18,
+      "total_tokens": 7576015
+    },
+    {
+      "max_n": 38,
+      "accuracy": 0.6,
+      "average_token_count": 257029.7,
+      "early_stop_rate": 0.6,
+      "correct": 18,
+      "total_tokens": 7710891
+    },
+    {
+      "max_n": 39,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 261308.26666666666,
+      "early_stop_rate": 0.6,
+      "correct": 19,
+      "total_tokens": 7839248
+    },
+    {
+      "max_n": 40,
+      "accuracy": 0.6,
+      "average_token_count": 265976.4,
+      "early_stop_rate": 0.6,
+      "correct": 18,
+      "total_tokens": 7979292
+    },
+    {
+      "max_n": 41,
+      "accuracy": 0.6,
+      "average_token_count": 270538.8333333333,
+      "early_stop_rate": 0.6333333333333333,
+      "correct": 18,
+      "total_tokens": 8116165
+    },
+    {
+      "max_n": 42,
+      "accuracy": 0.6,
+      "average_token_count": 275115.1,
+      "early_stop_rate": 0.6333333333333333,
+      "correct": 18,
+      "total_tokens": 8253453
+    },
+    {
+      "max_n": 43,
+      "accuracy": 0.6,
+      "average_token_count": 279515.3333333333,
+      "early_stop_rate": 0.6333333333333333,
+      "correct": 18,
+      "total_tokens": 8385460
+    },
+    {
+      "max_n": 44,
+      "accuracy": 0.6,
+      "average_token_count": 284423.2,
+      "early_stop_rate": 0.6333333333333333,
+      "correct": 18,
+      "total_tokens": 8532696
+    },
+    {
+      "max_n": 45,
+      "accuracy": 0.6,
+      "average_token_count": 288370.3333333333,
+      "early_stop_rate": 0.6333333333333333,
+      "correct": 18,
+      "total_tokens": 8651110
+    },
+    {
+      "max_n": 46,
+      "accuracy": 0.6,
+      "average_token_count": 292304.1666666667,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 8769125
+    },
+    {
+      "max_n": 47,
+      "accuracy": 0.6,
+      "average_token_count": 296576.0333333333,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 8897281
+    },
+    {
+      "max_n": 48,
+      "accuracy": 0.6,
+      "average_token_count": 299531.0,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 8985930
+    },
+    {
+      "max_n": 49,
+      "accuracy": 0.6,
+      "average_token_count": 303613.9,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 9108417
+    },
+    {
+      "max_n": 50,
+      "accuracy": 0.6,
+      "average_token_count": 306897.93333333335,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 9206938
+    },
+    {
+      "max_n": 51,
+      "accuracy": 0.6,
+      "average_token_count": 311458.9,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 9343767
+    },
+    {
+      "max_n": 52,
+      "accuracy": 0.6,
+      "average_token_count": 315654.43333333335,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 9469633
+    },
+    {
+      "max_n": 53,
+      "accuracy": 0.6,
+      "average_token_count": 319368.3333333333,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 9581050
+    },
+    {
+      "max_n": 54,
+      "accuracy": 0.6,
+      "average_token_count": 322728.7,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 9681861
+    },
+    {
+      "max_n": 55,
+      "accuracy": 0.6,
+      "average_token_count": 326646.23333333334,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 18,
+      "total_tokens": 9799387
+    },
+    {
+      "max_n": 56,
+      "accuracy": 0.6,
+      "average_token_count": 329839.1,
+      "early_stop_rate": 0.7,
+      "correct": 18,
+      "total_tokens": 9895173
+    },
+    {
+      "max_n": 57,
+      "accuracy": 0.6,
+      "average_token_count": 333882.6,
+      "early_stop_rate": 0.7,
+      "correct": 18,
+      "total_tokens": 10016478
+    },
+    {
+      "max_n": 58,
+      "accuracy": 0.6,
+      "average_token_count": 337381.3,
+      "early_stop_rate": 0.7,
+      "correct": 18,
+      "total_tokens": 10121439
+    },
+    {
+      "max_n": 59,
+      "accuracy": 0.6,
+      "average_token_count": 341037.0333333333,
+      "early_stop_rate": 0.7,
+      "correct": 18,
+      "total_tokens": 10231111
+    },
+    {
+      "max_n": 60,
+      "accuracy": 0.6,
+      "average_token_count": 344799.13333333336,
+      "early_stop_rate": 0.7,
+      "correct": 18,
+      "total_tokens": 10343974
+    },
+    {
+      "max_n": 61,
+      "accuracy": 0.6,
+      "average_token_count": 348235.5,
+      "early_stop_rate": 0.7,
+      "correct": 18,
+      "total_tokens": 10447065
+    },
+    {
+      "max_n": 62,
+      "accuracy": 0.5666666666666667,
+      "average_token_count": 351848.9666666667,
+      "early_stop_rate": 0.7,
+      "correct": 17,
+      "total_tokens": 10555469
+    },
+    {
+      "max_n": 63,
+      "accuracy": 0.6,
+      "average_token_count": 355472.06666666665,
+      "early_stop_rate": 0.7,
+      "correct": 18,
+      "total_tokens": 10664162
+    },
+    {
+      "max_n": 64,
+      "accuracy": 0.6,
+      "average_token_count": 359467.26666666666,
+      "early_stop_rate": 0.7,
+      "correct": 18,
+      "total_tokens": 10784018
+    }
+  ],
+  "asc_max_n_sweep": [
+    {
+      "max_n": 1,
+      "accuracy": 0.5333333333333333,
+      "average_token_count": 9884.466666666667,
+      "early_stop_rate": 0.0,
+      "correct": 16,
+      "total_tokens": 296534
+    },
+    {
+      "max_n": 2,
+      "accuracy": 0.5333333333333333,
+      "average_token_count": 19652.133333333335,
+      "early_stop_rate": 0.0,
+      "correct": 16,
+      "total_tokens": 589564
+    },
+    {
+      "max_n": 3,
+      "accuracy": 0.5333333333333333,
+      "average_token_count": 29590.166666666668,
+      "early_stop_rate": 0.0,
+      "correct": 16,
+      "total_tokens": 887705
+    },
+    {
+      "max_n": 4,
+      "accuracy": 0.5666666666666667,
+      "average_token_count": 40000.13333333333,
+      "early_stop_rate": 0.0,
+      "correct": 17,
+      "total_tokens": 1200004
+    },
+    {
+      "max_n": 5,
+      "accuracy": 0.6,
+      "average_token_count": 46652.933333333334,
+      "early_stop_rate": 0.36666666666666664,
+      "correct": 18,
+      "total_tokens": 1399588
+    },
+    {
+      "max_n": 6,
+      "accuracy": 0.5666666666666667,
+      "average_token_count": 53713.73333333333,
+      "early_stop_rate": 0.36666666666666664,
+      "correct": 17,
+      "total_tokens": 1611412
+    },
+    {
+      "max_n": 7,
+      "accuracy": 0.6,
+      "average_token_count": 61146.9,
+      "early_stop_rate": 0.36666666666666664,
+      "correct": 18,
+      "total_tokens": 1834407
+    },
+    {
+      "max_n": 8,
+      "accuracy": 0.6,
+      "average_token_count": 68686.2,
+      "early_stop_rate": 0.43333333333333335,
+      "correct": 18,
+      "total_tokens": 2060586
+    },
+    {
+      "max_n": 9,
+      "accuracy": 0.6,
+      "average_token_count": 75269.7,
+      "early_stop_rate": 0.4666666666666667,
+      "correct": 18,
+      "total_tokens": 2258091
+    },
+    {
+      "max_n": 10,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 80881.83333333333,
+      "early_stop_rate": 0.4666666666666667,
+      "correct": 19,
+      "total_tokens": 2426455
+    },
+    {
+      "max_n": 11,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 87461.53333333334,
+      "early_stop_rate": 0.4666666666666667,
+      "correct": 19,
+      "total_tokens": 2623846
+    },
+    {
+      "max_n": 12,
+      "accuracy": 0.5666666666666667,
+      "average_token_count": 92827.06666666667,
+      "early_stop_rate": 0.5,
+      "correct": 17,
+      "total_tokens": 2784812
+    },
+    {
+      "max_n": 13,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 97386.93333333333,
+      "early_stop_rate": 0.5333333333333333,
+      "correct": 19,
+      "total_tokens": 2921608
+    },
+    {
+      "max_n": 14,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 102509.76666666666,
+      "early_stop_rate": 0.5333333333333333,
+      "correct": 19,
+      "total_tokens": 3075293
+    },
+    {
+      "max_n": 15,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 108023.96666666666,
+      "early_stop_rate": 0.5666666666666667,
+      "correct": 19,
+      "total_tokens": 3240719
+    },
+    {
+      "max_n": 16,
+      "accuracy": 0.6666666666666666,
+      "average_token_count": 112390.2,
+      "early_stop_rate": 0.5666666666666667,
+      "correct": 20,
+      "total_tokens": 3371706
+    },
+    {
+      "max_n": 17,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 117545.86666666667,
+      "early_stop_rate": 0.5666666666666667,
+      "correct": 19,
+      "total_tokens": 3526376
+    },
+    {
+      "max_n": 18,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 122297.0,
+      "early_stop_rate": 0.5666666666666667,
+      "correct": 19,
+      "total_tokens": 3668910
+    },
+    {
+      "max_n": 19,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 127256.83333333333,
+      "early_stop_rate": 0.5666666666666667,
+      "correct": 19,
+      "total_tokens": 3817705
+    },
+    {
+      "max_n": 20,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 133106.3,
+      "early_stop_rate": 0.5666666666666667,
+      "correct": 19,
+      "total_tokens": 3993189
+    },
+    {
+      "max_n": 21,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 138306.0,
+      "early_stop_rate": 0.6,
+      "correct": 19,
+      "total_tokens": 4149180
+    },
+    {
+      "max_n": 22,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 142693.36666666667,
+      "early_stop_rate": 0.6,
+      "correct": 19,
+      "total_tokens": 4280801
+    },
+    {
+      "max_n": 23,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 147013.4,
+      "early_stop_rate": 0.6,
+      "correct": 19,
+      "total_tokens": 4410402
+    },
+    {
+      "max_n": 24,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 150155.26666666666,
+      "early_stop_rate": 0.6666666666666666,
+      "correct": 19,
+      "total_tokens": 4504658
+    },
+    {
+      "max_n": 25,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 153277.33333333334,
+      "early_stop_rate": 0.7333333333333333,
+      "correct": 19,
+      "total_tokens": 4598320
+    },
+    {
+      "max_n": 26,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 155618.16666666666,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 4668545
+    },
+    {
+      "max_n": 27,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 158210.83333333334,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 4746325
+    },
+    {
+      "max_n": 28,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 161279.93333333332,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 4838398
+    },
+    {
+      "max_n": 29,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 164233.16666666666,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 4926995
+    },
+    {
+      "max_n": 30,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 167136.63333333333,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 5014099
+    },
+    {
+      "max_n": 31,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 169301.46666666667,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 5079044
+    },
+    {
+      "max_n": 32,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 172043.1,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 5161293
+    },
+    {
+      "max_n": 33,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 174959.73333333334,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 5248792
+    },
+    {
+      "max_n": 34,
+      "accuracy": 0.6,
+      "average_token_count": 177939.26666666666,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 18,
+      "total_tokens": 5338178
+    },
+    {
+      "max_n": 35,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 180684.53333333333,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 19,
+      "total_tokens": 5420536
+    },
+    {
+      "max_n": 36,
+      "accuracy": 0.6,
+      "average_token_count": 183474.13333333333,
+      "early_stop_rate": 0.7666666666666667,
+      "correct": 18,
+      "total_tokens": 5504224
+    },
+    {
+      "max_n": 37,
+      "accuracy": 0.6,
+      "average_token_count": 185873.0,
+      "early_stop_rate": 0.8,
+      "correct": 18,
+      "total_tokens": 5576190
+    },
+    {
+      "max_n": 38,
+      "accuracy": 0.6,
+      "average_token_count": 188361.2,
+      "early_stop_rate": 0.8,
+      "correct": 18,
+      "total_tokens": 5650836
+    },
+    {
+      "max_n": 39,
+      "accuracy": 0.6333333333333333,
+      "average_token_count": 190661.96666666667,
+      "early_stop_rate": 0.8,
+      "correct": 19,
+      "total_tokens": 5719859
+    },
+    {
+      "max_n": 40,
+      "accuracy": 0.6,
+      "average_token_count": 193059.7,
+      "early_stop_rate": 0.8,
+      "correct": 18,
+      "total_tokens": 5791791
+    },
+    {
+      "max_n": 41,
+      "accuracy": 0.6,
+      "average_token_count": 195721.46666666667,
+      "early_stop_rate": 0.8,
+      "correct": 18,
+      "total_tokens": 5871644
+    },
+    {
+      "max_n": 42,
+      "accuracy": 0.6,
+      "average_token_count": 197748.4,
+      "early_stop_rate": 0.8333333333333334,
+      "correct": 18,
+      "total_tokens": 5932452
+    },
+    {
+      "max_n": 43,
+      "accuracy": 0.6,
+      "average_token_count": 199802.93333333332,
+      "early_stop_rate": 0.8333333333333334,
+      "correct": 18,
+      "total_tokens": 5994088
+    },
+    {
+      "max_n": 44,
+      "accuracy": 0.6,
+      "average_token_count": 202186.63333333333,
+      "early_stop_rate": 0.8333333333333334,
+      "correct": 18,
+      "total_tokens": 6065599
+    },
+    {
+      "max_n": 45,
+      "accuracy": 0.6,
+      "average_token_count": 203931.23333333334,
+      "early_stop_rate": 0.8333333333333334,
+      "correct": 18,
+      "total_tokens": 6117937
+    },
+    {
+      "max_n": 46,
+      "accuracy": 0.6,
+      "average_token_count": 206055.9,
+      "early_stop_rate": 0.8333333333333334,
+      "correct": 18,
+      "total_tokens": 6181677
+    },
+    {
+      "max_n": 47,
+      "accuracy": 0.6,
+      "average_token_count": 208075.33333333334,
+      "early_stop_rate": 0.8333333333333334,
+      "correct": 18,
+      "total_tokens": 6242260
+    },
+    {
+      "max_n": 48,
+      "accuracy": 0.6,
+      "average_token_count": 209497.23333333334,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6284917
+    },
+    {
+      "max_n": 49,
+      "accuracy": 0.6,
+      "average_token_count": 210827.76666666666,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6324833
+    },
+    {
+      "max_n": 50,
+      "accuracy": 0.6,
+      "average_token_count": 212158.3,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6364749
+    },
+    {
+      "max_n": 51,
+      "accuracy": 0.6,
+      "average_token_count": 214010.66666666666,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6420320
+    },
+    {
+      "max_n": 52,
+      "accuracy": 0.6,
+      "average_token_count": 215804.56666666668,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6474137
+    },
+    {
+      "max_n": 53,
+      "accuracy": 0.6,
+      "average_token_count": 217436.13333333333,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6523084
+    },
+    {
+      "max_n": 54,
+      "accuracy": 0.6,
+      "average_token_count": 218608.43333333332,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6558253
+    },
+    {
+      "max_n": 55,
+      "accuracy": 0.6,
+      "average_token_count": 219666.53333333333,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6589996
+    },
+    {
+      "max_n": 56,
+      "accuracy": 0.6,
+      "average_token_count": 220678.76666666666,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6620363
+    },
+    {
+      "max_n": 57,
+      "accuracy": 0.6,
+      "average_token_count": 222296.0,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6668880
+    },
+    {
+      "max_n": 58,
+      "accuracy": 0.6,
+      "average_token_count": 223823.86666666667,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6714716
+    },
+    {
+      "max_n": 59,
+      "accuracy": 0.6,
+      "average_token_count": 225435.96666666667,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6763079
+    },
+    {
+      "max_n": 60,
+      "accuracy": 0.6,
+      "average_token_count": 226999.3,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6809979
+    },
+    {
+      "max_n": 61,
+      "accuracy": 0.6,
+      "average_token_count": 228176.1,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6845283
+    },
+    {
+      "max_n": 62,
+      "accuracy": 0.5666666666666667,
+      "average_token_count": 229661.7,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 17,
+      "total_tokens": 6889851
+    },
+    {
+      "max_n": 63,
+      "accuracy": 0.6,
+      "average_token_count": 231145.03333333333,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6934351
+    },
+    {
+      "max_n": 64,
+      "accuracy": 0.6,
+      "average_token_count": 232872.43333333332,
+      "early_stop_rate": 0.8666666666666667,
+      "correct": 18,
+      "total_tokens": 6986173
+    }
+  ]
+}

@@ -1,0 +1,874 @@
+{
+  "metadata": {
+    "description": "Test-time scaling comparison data",
+    "datasets": [
+      "MATH500",
+      "GSM8K",
+      "AIME24",
+      "AIME25",
+      "AMC23"
+    ],
+    "methods": [
+      "BoN",
+      "Self-Consistency",
+      "Sequential",
+      "OptScale_MLE",
+      "OptScale_MAP"
+    ],
+    "n_values": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "metrics": {
+      "accuracy": "Accuracy percentage (%)",
+      "tokens": "Token count",
+      "efficiency": "Accuracy/token ratio × 1000"
+    },
+    "notes": {
+      "OptScale_methods": "For N=1, uses BoN N=1 result. For N=8,16,32,64, uses best accuracy with lowest token count.",
+      "missing_data": "OptScale methods have no data for N=2,4 (direct line from N=1 to N=8)"
+    }
+  },
+  "data": {
+    "MATH500": {
+      "BoN": {
+        "1": {
+          "accuracy": 89.60000000000001,
+          "tokens": 2767,
+          "efficiency": 32.38164076617275
+        },
+        "2": {
+          "accuracy": 93.4,
+          "tokens": 5546,
+          "efficiency": 16.84096646231518
+        },
+        "4": {
+          "accuracy": 94.6,
+          "tokens": 11060,
+          "efficiency": 8.553345388788426
+        },
+        "8": {
+          "accuracy": 94.8,
+          "tokens": 22135,
+          "efficiency": 4.282810029365258
+        },
+        "16": {
+          "accuracy": 93.8,
+          "tokens": 43909,
+          "efficiency": 2.1362363069074672
+        },
+        "32": {
+          "accuracy": 94.39999999999999,
+          "tokens": 87160,
+          "efficiency": 1.083065626434144
+        },
+        "64": {
+          "accuracy": 94.0,
+          "tokens": 174693,
+          "efficiency": 0.5380868151557303
+        }
+      },
+      "Self-Consistency": {
+        "1": {
+          "accuracy": 89.60000000000001,
+          "tokens": 2767,
+          "efficiency": 32.38164076617275
+        },
+        "2": {
+          "accuracy": 89.60000000000001,
+          "tokens": 5546,
+          "efficiency": 16.15578795528309
+        },
+        "4": {
+          "accuracy": 92.2,
+          "tokens": 11060,
+          "efficiency": 8.336347197106692
+        },
+        "8": {
+          "accuracy": 93.4,
+          "tokens": 22135,
+          "efficiency": 4.2195617799864475
+        },
+        "16": {
+          "accuracy": 93.4,
+          "tokens": 43909,
+          "efficiency": 2.1271265571978413
+        },
+        "32": {
+          "accuracy": 93.2,
+          "tokens": 87160,
+          "efficiency": 1.0692978430472695
+        },
+        "64": {
+          "accuracy": 93.4,
+          "tokens": 174693,
+          "efficiency": 0.534652218463247
+        }
+      },
+      "Sequential": {
+        "1": {
+          "accuracy": 89.60000000000001,
+          "tokens": 2747,
+          "efficiency": 32.61740080087368
+        },
+        "2": {
+          "accuracy": 92.0,
+          "tokens": 5417,
+          "efficiency": 16.98357024183127
+        },
+        "4": {
+          "accuracy": 91.60000000000001,
+          "tokens": 10751,
+          "efficiency": 8.520137661612875
+        },
+        "8": {
+          "accuracy": 91.2,
+          "tokens": 21396,
+          "efficiency": 4.262478968031408
+        },
+        "16": {
+          "accuracy": 91.60000000000001,
+          "tokens": 42422,
+          "efficiency": 2.159256989298006
+        },
+        "32": {
+          "accuracy": 91.4,
+          "tokens": 84234,
+          "efficiency": 1.0850725360305815
+        },
+        "64": {
+          "accuracy": 92.0,
+          "tokens": 168331,
+          "efficiency": 0.5465422292982279
+        }
+      },
+      "OptScale_MLE": {
+        "1": {
+          "accuracy": 89.60000000000001,
+          "tokens": 2767,
+          "efficiency": 32.38164076617275
+        },
+        "8": {
+          "accuracy": 94.8,
+          "tokens": 11354,
+          "efficiency": 8.349480359344723
+        },
+        "16": {
+          "accuracy": 95.19999999999999,
+          "tokens": 18123,
+          "efficiency": 5.252993433758207
+        },
+        "32": {
+          "accuracy": 95.0,
+          "tokens": 34732,
+          "efficiency": 2.735229759299781
+        },
+        "64": {
+          "accuracy": 94.6,
+          "tokens": 110001,
+          "efficiency": 0.8599921818892554
+        }
+      },
+      "OptScale_MAP": {
+        "1": {
+          "accuracy": 89.60000000000001,
+          "tokens": 2767,
+          "efficiency": 32.38164076617275
+        },
+        "8": {
+          "accuracy": 94.8,
+          "tokens": 18236,
+          "efficiency": 5.198508444834394
+        },
+        "16": {
+          "accuracy": 94.39999999999999,
+          "tokens": 22487,
+          "efficiency": 4.197981055721083
+        },
+        "32": {
+          "accuracy": 95.0,
+          "tokens": 35317,
+          "efficiency": 2.6899227001160915
+        },
+        "64": {
+          "accuracy": 94.6,
+          "tokens": 76284,
+          "efficiency": 1.2401027738451051
+        }
+      }
+    },
+    "GSM8K": {
+      "BoN": {
+        "1": {
+          "accuracy": 86.9598180439727,
+          "tokens": 454,
+          "efficiency": 191.5414494360632
+        },
+        "2": {
+          "accuracy": 89.76497346474602,
+          "tokens": 900,
+          "efficiency": 99.73885940527336
+        },
+        "4": {
+          "accuracy": 91.28127369219105,
+          "tokens": 1796,
+          "efficiency": 50.82476263485025
+        },
+        "8": {
+          "accuracy": 92.41849886277484,
+          "tokens": 3582,
+          "efficiency": 25.80080928609013
+        },
+        "16": {
+          "accuracy": 93.47990902198634,
+          "tokens": 7160,
+          "efficiency": 13.055853215361221
+        },
+        "32": {
+          "accuracy": 93.10083396512509,
+          "tokens": 14270,
+          "efficiency": 6.524235036098465
+        },
+        "64": {
+          "accuracy": 94.01061410159211,
+          "tokens": 28547,
+          "efficiency": 3.293187168584864
+        }
+      },
+      "Self-Consistency": {
+        "1": {
+          "accuracy": 86.9598180439727,
+          "tokens": 454,
+          "efficiency": 191.5414494360632
+        },
+        "2": {
+          "accuracy": 86.9598180439727,
+          "tokens": 900,
+          "efficiency": 96.62202004885856
+        },
+        "4": {
+          "accuracy": 89.0068233510235,
+          "tokens": 1796,
+          "efficiency": 49.55836489477923
+        },
+        "8": {
+          "accuracy": 90.06823351023503,
+          "tokens": 3582,
+          "efficiency": 25.14467713853574
+        },
+        "16": {
+          "accuracy": 90.82638362395754,
+          "tokens": 7160,
+          "efficiency": 12.685249109491277
+        },
+        "32": {
+          "accuracy": 90.9021986353298,
+          "tokens": 14270,
+          "efficiency": 6.370161081662915
+        },
+        "64": {
+          "accuracy": 91.20545868081881,
+          "tokens": 28547,
+          "efficiency": 3.194922712748058
+        }
+      },
+      "Sequential": {
+        "1": {
+          "accuracy": 86.12585291887794,
+          "tokens": 442,
+          "efficiency": 194.85487085718992
+        },
+        "2": {
+          "accuracy": 87.56633813495071,
+          "tokens": 1106,
+          "efficiency": 79.17390428114892
+        },
+        "4": {
+          "accuracy": 88.02122820318424,
+          "tokens": 2333,
+          "efficiency": 37.728773340413305
+        },
+        "8": {
+          "accuracy": 88.40030326004549,
+          "tokens": 4792,
+          "efficiency": 18.447475638573767
+        },
+        "16": {
+          "accuracy": 88.32448824867323,
+          "tokens": 9615,
+          "efficiency": 9.186114222430914
+        },
+        "32": {
+          "accuracy": 88.40030326004549,
+          "tokens": 19135,
+          "efficiency": 4.619822485500157
+        },
+        "64": {
+          "accuracy": 88.24867323730099,
+          "tokens": 38305,
+          "efficiency": 2.3038421416864896
+        }
+      },
+      "OptScale_MLE": {
+        "1": {
+          "accuracy": 86.9598180439727,
+          "tokens": 454,
+          "efficiency": 191.5414494360632
+        },
+        "8": {
+          "accuracy": 92.41849886277484,
+          "tokens": 1687,
+          "efficiency": 54.78274977046522
+        },
+        "16": {
+          "accuracy": 93.47990902198634,
+          "tokens": 4372,
+          "efficiency": 21.38149794647446
+        },
+        "32": {
+          "accuracy": 93.47990902198634,
+          "tokens": 4757,
+          "efficiency": 19.65102144670724
+        },
+        "64": {
+          "accuracy": 94.08642911296437,
+          "tokens": 11086,
+          "efficiency": 8.486959147840913
+        }
+      },
+      "OptScale_MAP": {
+        "1": {
+          "accuracy": 86.9598180439727,
+          "tokens": 454,
+          "efficiency": 191.5414494360632
+        },
+        "8": {
+          "accuracy": 92.41849886277484,
+          "tokens": 3492,
+          "efficiency": 26.4657785975873
+        },
+        "16": {
+          "accuracy": 93.47990902198634,
+          "tokens": 6860,
+          "efficiency": 13.626808895333285
+        },
+        "32": {
+          "accuracy": 93.47990902198634,
+          "tokens": 6337,
+          "efficiency": 14.751445324599391
+        },
+        "64": {
+          "accuracy": 94.01061410159211,
+          "tokens": 21386,
+          "efficiency": 4.3958951698116575
+        }
+      }
+    },
+    "AIME24": {
+      "BoN": {
+        "1": {
+          "accuracy": 53.333333333333336,
+          "tokens": 9884,
+          "efficiency": 5.395926075812762
+        },
+        "2": {
+          "accuracy": 66.66666666666666,
+          "tokens": 19652,
+          "efficiency": 3.39236040436936
+        },
+        "4": {
+          "accuracy": 66.66666666666666,
+          "tokens": 40000,
+          "efficiency": 1.6666666666666663
+        },
+        "8": {
+          "accuracy": 70.0,
+          "tokens": 79367,
+          "efficiency": 0.8819786561165219
+        },
+        "16": {
+          "accuracy": 76.66666666666667,
+          "tokens": 159479,
+          "efficiency": 0.4807320504058006
+        },
+        "32": {
+          "accuracy": 70.0,
+          "tokens": 317453,
+          "efficiency": 0.2205050826421549
+        },
+        "64": {
+          "accuracy": 80.0,
+          "tokens": 637293,
+          "efficiency": 0.12553095671849526
+        }
+      },
+      "Self-Consistency": {
+        "1": {
+          "accuracy": 53.333333333333336,
+          "tokens": 9884,
+          "efficiency": 5.395926075812762
+        },
+        "2": {
+          "accuracy": 53.333333333333336,
+          "tokens": 19652,
+          "efficiency": 2.7138883234954885
+        },
+        "4": {
+          "accuracy": 56.666666666666664,
+          "tokens": 40000,
+          "efficiency": 1.4166666666666665
+        },
+        "8": {
+          "accuracy": 60.0,
+          "tokens": 79367,
+          "efficiency": 0.7559817052427331
+        },
+        "16": {
+          "accuracy": 66.66666666666666,
+          "tokens": 159479,
+          "efficiency": 0.4180278699180874
+        },
+        "32": {
+          "accuracy": 63.33333333333333,
+          "tokens": 317453,
+          "efficiency": 0.19950459858099728
+        },
+        "64": {
+          "accuracy": 60.0,
+          "tokens": 637293,
+          "efficiency": 0.09414821753887144
+        }
+      },
+      "Sequential": {
+        "1": {
+          "accuracy": 53.333333333333336,
+          "tokens": 9884,
+          "efficiency": 5.395926075812762
+        },
+        "2": {
+          "accuracy": 46.666666666666664,
+          "tokens": 19719,
+          "efficiency": 2.3665838362323983
+        },
+        "4": {
+          "accuracy": 56.666666666666664,
+          "tokens": 38704,
+          "efficiency": 1.4641036240870882
+        },
+        "8": {
+          "accuracy": 56.666666666666664,
+          "tokens": 78432,
+          "efficiency": 0.7224942200462396
+        },
+        "16": {
+          "accuracy": 53.333333333333336,
+          "tokens": 157507,
+          "efficiency": 0.338609289322591
+        },
+        "32": {
+          "accuracy": 63.33333333333333,
+          "tokens": 313463,
+          "efficiency": 0.20204404772918438
+        },
+        "64": {
+          "accuracy": 70.0,
+          "tokens": 625850,
+          "efficiency": 0.11184788687385157
+        }
+      },
+      "OptScale_MLE": {
+        "1": {
+          "accuracy": 53.333333333333336,
+          "tokens": 9884,
+          "efficiency": 5.395926075812762
+        },
+        "8": {
+          "accuracy": 70.0,
+          "tokens": 49505,
+          "efficiency": 1.413998586001414
+        },
+        "16": {
+          "accuracy": 76.66666666666667,
+          "tokens": 122001,
+          "efficiency": 0.6284101496435822
+        },
+        "32": {
+          "accuracy": 73.33333333333333,
+          "tokens": 256177,
+          "efficiency": 0.286260411095974
+        },
+        "64": {
+          "accuracy": 83.33333333333334,
+          "tokens": 503002,
+          "efficiency": 0.1656719721459027
+        }
+      },
+      "OptScale_MAP": {
+        "1": {
+          "accuracy": 53.333333333333336,
+          "tokens": 9884,
+          "efficiency": 5.395926075812762
+        },
+        "8": {
+          "accuracy": 70.0,
+          "tokens": 53855,
+          "efficiency": 1.2997864636524
+        },
+        "16": {
+          "accuracy": 76.66666666666667,
+          "tokens": 122896,
+          "efficiency": 0.6238337022089138
+        },
+        "32": {
+          "accuracy": 76.66666666666667,
+          "tokens": 221290,
+          "efficiency": 0.3464533718951
+        },
+        "64": {
+          "accuracy": 80.0,
+          "tokens": 343491,
+          "efficiency": 0.2329027543661988
+        }
+      }
+    },
+    "AIME25": {
+      "BoN": {
+        "1": {
+          "accuracy": 36.666666666666664,
+          "tokens": 10381,
+          "efficiency": 3.532093889477571
+        },
+        "2": {
+          "accuracy": 43.333333333333336,
+          "tokens": 20957,
+          "efficiency": 2.0677259785910835
+        },
+        "4": {
+          "accuracy": 40.0,
+          "tokens": 42408,
+          "efficiency": 0.9432182607055273
+        },
+        "8": {
+          "accuracy": 43.333333333333336,
+          "tokens": 84342,
+          "efficiency": 0.513781192446626
+        },
+        "16": {
+          "accuracy": 46.666666666666664,
+          "tokens": 168080,
+          "efficiency": 0.27764556560368076
+        },
+        "32": {
+          "accuracy": 50.0,
+          "tokens": 338555,
+          "efficiency": 0.14768649111665755
+        },
+        "64": {
+          "accuracy": 53.333333333333336,
+          "tokens": 676533,
+          "efficiency": 0.07883330648073832
+        }
+      },
+      "Self-Consistency": {
+        "1": {
+          "accuracy": 36.666666666666664,
+          "tokens": 10381,
+          "efficiency": 3.532093889477571
+        },
+        "2": {
+          "accuracy": 36.666666666666664,
+          "tokens": 20957,
+          "efficiency": 1.7496142895770705
+        },
+        "4": {
+          "accuracy": 36.666666666666664,
+          "tokens": 42408,
+          "efficiency": 0.8646167389800666
+        },
+        "8": {
+          "accuracy": 40.0,
+          "tokens": 84342,
+          "efficiency": 0.47425956225842403
+        },
+        "16": {
+          "accuracy": 36.666666666666664,
+          "tokens": 168080,
+          "efficiency": 0.21815008726003488
+        },
+        "32": {
+          "accuracy": 40.0,
+          "tokens": 338555,
+          "efficiency": 0.11814919289332605
+        },
+        "64": {
+          "accuracy": 40.0,
+          "tokens": 676533,
+          "efficiency": 0.05912497986055374
+        }
+      },
+      "Sequential": {
+        "1": {
+          "accuracy": 36.666666666666664,
+          "tokens": 10381,
+          "efficiency": 3.532093889477571
+        },
+        "2": {
+          "accuracy": 40.0,
+          "tokens": 21224,
+          "efficiency": 1.8846588767433095
+        },
+        "4": {
+          "accuracy": 36.666666666666664,
+          "tokens": 42996,
+          "efficiency": 0.8527925078301857
+        },
+        "8": {
+          "accuracy": 40.0,
+          "tokens": 86568,
+          "efficiency": 0.462064504204787
+        },
+        "16": {
+          "accuracy": 43.333333333333336,
+          "tokens": 171853,
+          "efficiency": 0.2521534877676464
+        },
+        "32": {
+          "accuracy": 33.33333333333333,
+          "tokens": 341517,
+          "efficiency": 0.09760373080500628
+        },
+        "64": {
+          "accuracy": 40.0,
+          "tokens": 684446,
+          "efficiency": 0.05844142562013658
+        }
+      },
+      "OptScale_MLE": {
+        "1": {
+          "accuracy": 36.666666666666664,
+          "tokens": 10381,
+          "efficiency": 3.532093889477571
+        },
+        "8": {
+          "accuracy": 43.333333333333336,
+          "tokens": 78803,
+          "efficiency": 0.5498944625627621
+        },
+        "16": {
+          "accuracy": 50.0,
+          "tokens": 126874,
+          "efficiency": 0.3940917760928165
+        },
+        "32": {
+          "accuracy": 50.0,
+          "tokens": 291402,
+          "efficiency": 0.17158427189930062
+        },
+        "64": {
+          "accuracy": 50.0,
+          "tokens": 549344,
+          "efficiency": 0.09101765014271568
+        }
+      },
+      "OptScale_MAP": {
+        "1": {
+          "accuracy": 36.666666666666664,
+          "tokens": 10381,
+          "efficiency": 3.532093889477571
+        },
+        "8": {
+          "accuracy": 46.666666666666664,
+          "tokens": 69661,
+          "efficiency": 0.6699109496944727
+        },
+        "16": {
+          "accuracy": 50.0,
+          "tokens": 143181,
+          "efficiency": 0.34920834468260453
+        },
+        "32": {
+          "accuracy": 50.0,
+          "tokens": 304676,
+          "efficiency": 0.1641087581562053
+        },
+        "64": {
+          "accuracy": 53.333333333333336,
+          "tokens": 649900,
+          "efficiency": 0.08206390726778479
+        }
+      }
+    },
+    "AMC23": {
+      "BoN": {
+        "1": {
+          "accuracy": 82.5,
+          "tokens": 4802,
+          "efficiency": 17.18034152436485
+        },
+        "2": {
+          "accuracy": 87.5,
+          "tokens": 9900,
+          "efficiency": 8.838383838383837
+        },
+        "4": {
+          "accuracy": 92.5,
+          "tokens": 20057,
+          "efficiency": 4.611856209802064
+        },
+        "8": {
+          "accuracy": 95.0,
+          "tokens": 40511,
+          "efficiency": 2.345042087334304
+        },
+        "16": {
+          "accuracy": 95.0,
+          "tokens": 79881,
+          "efficiency": 1.189269037693569
+        },
+        "32": {
+          "accuracy": 95.0,
+          "tokens": 157962,
+          "efficiency": 0.6014104658082324
+        },
+        "64": {
+          "accuracy": 95.0,
+          "tokens": 312241,
+          "efficiency": 0.3042521641936837
+        }
+      },
+      "Self-Consistency": {
+        "1": {
+          "accuracy": 82.5,
+          "tokens": 4802,
+          "efficiency": 17.18034152436485
+        },
+        "2": {
+          "accuracy": 82.5,
+          "tokens": 9900,
+          "efficiency": 8.333333333333334
+        },
+        "4": {
+          "accuracy": 90.0,
+          "tokens": 20057,
+          "efficiency": 4.487211447374981
+        },
+        "8": {
+          "accuracy": 85.0,
+          "tokens": 40511,
+          "efficiency": 2.0981955518254303
+        },
+        "16": {
+          "accuracy": 87.5,
+          "tokens": 79881,
+          "efficiency": 1.0953793768230242
+        },
+        "32": {
+          "accuracy": 90.0,
+          "tokens": 157962,
+          "efficiency": 0.5697572833972727
+        },
+        "64": {
+          "accuracy": 92.5,
+          "tokens": 312241,
+          "efficiency": 0.29624552829385
+        }
+      },
+      "Sequential": {
+        "1": {
+          "accuracy": 82.5,
+          "tokens": 4802,
+          "efficiency": 17.18034152436485
+        },
+        "2": {
+          "accuracy": 90.0,
+          "tokens": 9402,
+          "efficiency": 9.572431397574984
+        },
+        "4": {
+          "accuracy": 87.5,
+          "tokens": 18557,
+          "efficiency": 4.715201810637495
+        },
+        "8": {
+          "accuracy": 87.5,
+          "tokens": 36780,
+          "efficiency": 2.3790103317020117
+        },
+        "16": {
+          "accuracy": 87.5,
+          "tokens": 72877,
+          "efficiency": 1.200653155316492
+        },
+        "32": {
+          "accuracy": 90.0,
+          "tokens": 143178,
+          "efficiency": 0.6285881909231865
+        },
+        "64": {
+          "accuracy": 90.0,
+          "tokens": 286639,
+          "efficiency": 0.3139837914589431
+        }
+      },
+      "OptScale_MLE": {
+        "1": {
+          "accuracy": 82.5,
+          "tokens": 4802,
+          "efficiency": 17.18034152436485
+        },
+        "8": {
+          "accuracy": 95.0,
+          "tokens": 29288,
+          "efficiency": 3.243649276154056
+        },
+        "16": {
+          "accuracy": 95.0,
+          "tokens": 52310,
+          "efficiency": 1.8160963486904989
+        },
+        "32": {
+          "accuracy": 95.0,
+          "tokens": 66086,
+          "efficiency": 1.4375208062221954
+        },
+        "64": {
+          "accuracy": 95.0,
+          "tokens": 119777,
+          "efficiency": 0.793140586256126
+        }
+      },
+      "OptScale_MAP": {
+        "1": {
+          "accuracy": 82.5,
+          "tokens": 4802,
+          "efficiency": 17.18034152436485
+        },
+        "8": {
+          "accuracy": 95.0,
+          "tokens": 30671,
+          "efficiency": 3.097388412506928
+        },
+        "16": {
+          "accuracy": 95.0,
+          "tokens": 47061,
+          "efficiency": 2.0186566371305323
+        },
+        "32": {
+          "accuracy": 95.0,
+          "tokens": 65792,
+          "efficiency": 1.443944552529183
+        },
+        "64": {
+          "accuracy": 95.0,
+          "tokens": 119282,
+          "efficiency": 0.796431984708506
+        }
+      }
+    }
+  }
+}

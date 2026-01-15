@@ -1,0 +1,3 @@
+data/completions/*
+train_predictor/train_completion.json
+train_predictor/val_completion.json

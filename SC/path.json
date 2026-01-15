@@ -1,0 +1,27 @@
+{
+  "AIME24": {
+    "prompts": "../data/test_prompts/aime24.json",
+    "completions": "../data/completions/r1_distill_qwen7b/parallel/scored_qwen7b_par_aime24_64.json",
+    "prompt_key": "problem"
+  },
+  "AIME25": {
+    "prompts": "../data/test_prompts/aime25.json",
+    "completions": "../data/completions/r1_distill_qwen7b/parallel/scored_qwen7b_par_aime25_64.json",
+    "prompt_key": "question"
+  },
+  "MATH500": {
+    "prompts": "../data/test_prompts/math500_test.json",
+    "completions": "../data/completions/r1_distill_qwen7b/parallel/scored_qwen7b_par_math500_64.json",
+    "prompt_key": "problem"
+  },
+  "AMC23": {
+    "prompts": "../data/test_prompts/amc23.json",
+    "completions": "../data/completions/r1_distill_qwen7b/parallel/scored_qwen7b_par_amc23_64.json",
+    "prompt_key": "problem"
+  },
+  "GSM8K": {
+    "prompts": "../data/test_prompts/gsm8k_test.json",
+    "completions": "../data/completions/r1_distill_qwen7b/parallel/scored_qwen7b_par_gsm8k_64.json",
+    "prompt_key": "question"
+  }
+}

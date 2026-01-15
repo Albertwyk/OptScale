@@ -1,0 +1,653 @@
+{
+  "dsc_default": {
+    "accuracy": 0.9,
+    "average_token_count": 57014.898,
+    "easy_rate": 0.75,
+    "adaptive_stop_rate": 0.225,
+    "correct": 36,
+    "total_tokens": 2280595.92,
+    "binary_search_overhead": 182734.91999999998
+  },
+  "dsc_max_sample_size_sweep": [
+    {
+      "max_sample_size": 1,
+      "accuracy": 0.825,
+      "average_token_count": 4802.225,
+      "easy_rate": 0.0,
+      "adaptive_stop_rate": 0.0,
+      "correct": 33,
+      "total_tokens": 192089.0,
+      "binary_search_overhead": 0.0
+    },
+    {
+      "max_sample_size": 2,
+      "accuracy": 0.825,
+      "average_token_count": 9900.25,
+      "easy_rate": 0.0,
+      "adaptive_stop_rate": 0.0,
+      "correct": 33,
+      "total_tokens": 396010.0,
+      "binary_search_overhead": 0.0
+    },
+    {
+      "max_sample_size": 3,
+      "accuracy": 0.875,
+      "average_token_count": 14754.825,
+      "easy_rate": 0.0,
+      "adaptive_stop_rate": 0.0,
+      "correct": 35,
+      "total_tokens": 590193.0,
+      "binary_search_overhead": 0.0
+    },
+    {
+      "max_sample_size": 4,
+      "accuracy": 0.9,
+      "average_token_count": 20057.125,
+      "easy_rate": 0.0,
+      "adaptive_stop_rate": 0.675,
+      "correct": 36,
+      "total_tokens": 802285.0,
+      "binary_search_overhead": 0.0
+    },
+    {
+      "max_sample_size": 5,
+      "accuracy": 0.825,
+      "average_token_count": 12323.646875,
+      "easy_rate": 1.0,
+      "adaptive_stop_rate": 0.0,
+      "correct": 33,
+      "total_tokens": 492945.875,
+      "binary_search_overhead": 300856.875
+    },
+    {
+      "max_sample_size": 6,
+      "accuracy": 0.825,
+      "average_token_count": 19389.753125,
+      "easy_rate": 0.8,
+      "adaptive_stop_rate": 0.025,
+      "correct": 33,
+      "total_tokens": 775590.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 7,
+      "accuracy": 0.875,
+      "average_token_count": 29100.828125,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.225,
+      "correct": 35,
+      "total_tokens": 1164033.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 8,
+      "accuracy": 0.825,
+      "average_token_count": 31540.8625,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.225,
+      "correct": 33,
+      "total_tokens": 1261634.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 9,
+      "accuracy": 0.825,
+      "average_token_count": 23909.11875,
+      "easy_rate": 0.775,
+      "adaptive_stop_rate": 0.1,
+      "correct": 33,
+      "total_tokens": 956364.75,
+      "binary_search_overhead": 120342.75
+    },
+    {
+      "max_sample_size": 10,
+      "accuracy": 0.825,
+      "average_token_count": 32446.4375,
+      "easy_rate": 0.7,
+      "adaptive_stop_rate": 0.175,
+      "correct": 33,
+      "total_tokens": 1297857.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 11,
+      "accuracy": 0.85,
+      "average_token_count": 37273.0125,
+      "easy_rate": 0.5,
+      "adaptive_stop_rate": 0.375,
+      "correct": 34,
+      "total_tokens": 1490920.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 12,
+      "accuracy": 0.825,
+      "average_token_count": 22227.1125,
+      "easy_rate": 0.875,
+      "adaptive_stop_rate": 0.075,
+      "correct": 33,
+      "total_tokens": 889084.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 13,
+      "accuracy": 0.825,
+      "average_token_count": 28350.44375,
+      "easy_rate": 0.775,
+      "adaptive_stop_rate": 0.125,
+      "correct": 33,
+      "total_tokens": 1134017.75,
+      "binary_search_overhead": 120342.75
+    },
+    {
+      "max_sample_size": 14,
+      "accuracy": 0.85,
+      "average_token_count": 38246.7625,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.275,
+      "correct": 34,
+      "total_tokens": 1529870.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 15,
+      "accuracy": 0.825,
+      "average_token_count": 31583.128125,
+      "easy_rate": 0.775,
+      "adaptive_stop_rate": 0.125,
+      "correct": 33,
+      "total_tokens": 1263325.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 16,
+      "accuracy": 0.875,
+      "average_token_count": 41095.3875,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.35,
+      "correct": 35,
+      "total_tokens": 1643815.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 17,
+      "accuracy": 0.85,
+      "average_token_count": 41347.196875,
+      "easy_rate": 0.675,
+      "adaptive_stop_rate": 0.225,
+      "correct": 34,
+      "total_tokens": 1653887.875,
+      "binary_search_overhead": 300856.875
+    },
+    {
+      "max_sample_size": 18,
+      "accuracy": 0.85,
+      "average_token_count": 41948.7125,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.275,
+      "correct": 34,
+      "total_tokens": 1677948.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 19,
+      "accuracy": 0.85,
+      "average_token_count": 42835.3125,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.275,
+      "correct": 34,
+      "total_tokens": 1713412.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 20,
+      "accuracy": 0.85,
+      "average_token_count": 42041.3125,
+      "easy_rate": 0.7,
+      "adaptive_stop_rate": 0.2,
+      "correct": 34,
+      "total_tokens": 1681652.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 21,
+      "accuracy": 0.875,
+      "average_token_count": 46627.7625,
+      "easy_rate": 0.5,
+      "adaptive_stop_rate": 0.425,
+      "correct": 35,
+      "total_tokens": 1865110.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 22,
+      "accuracy": 0.875,
+      "average_token_count": 41005.803125,
+      "easy_rate": 0.725,
+      "adaptive_stop_rate": 0.2,
+      "correct": 35,
+      "total_tokens": 1640232.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 23,
+      "accuracy": 0.875,
+      "average_token_count": 47279.4875,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.375,
+      "correct": 35,
+      "total_tokens": 1891179.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 24,
+      "accuracy": 0.85,
+      "average_token_count": 37798.06875,
+      "easy_rate": 0.775,
+      "adaptive_stop_rate": 0.15,
+      "correct": 34,
+      "total_tokens": 1511922.75,
+      "binary_search_overhead": 120342.75
+    },
+    {
+      "max_sample_size": 25,
+      "accuracy": 0.875,
+      "average_token_count": 44321.678125,
+      "easy_rate": 0.7,
+      "adaptive_stop_rate": 0.225,
+      "correct": 35,
+      "total_tokens": 1772867.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 26,
+      "accuracy": 0.85,
+      "average_token_count": 36508.9625,
+      "easy_rate": 0.8,
+      "adaptive_stop_rate": 0.15,
+      "correct": 34,
+      "total_tokens": 1460358.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 27,
+      "accuracy": 0.85,
+      "average_token_count": 41570.103125,
+      "easy_rate": 0.775,
+      "adaptive_stop_rate": 0.15,
+      "correct": 34,
+      "total_tokens": 1662804.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 28,
+      "accuracy": 0.9,
+      "average_token_count": 51690.1125,
+      "easy_rate": 0.5,
+      "adaptive_stop_rate": 0.425,
+      "correct": 36,
+      "total_tokens": 2067604.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 29,
+      "accuracy": 0.875,
+      "average_token_count": 48778.0375,
+      "easy_rate": 0.7,
+      "adaptive_stop_rate": 0.225,
+      "correct": 35,
+      "total_tokens": 1951121.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 30,
+      "accuracy": 0.875,
+      "average_token_count": 51117.6625,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.3,
+      "correct": 35,
+      "total_tokens": 2044706.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 31,
+      "accuracy": 0.9,
+      "average_token_count": 54502.721875,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.375,
+      "correct": 36,
+      "total_tokens": 2180108.875,
+      "binary_search_overhead": 300856.875
+    },
+    {
+      "max_sample_size": 32,
+      "accuracy": 0.875,
+      "average_token_count": 47683.7375,
+      "easy_rate": 0.75,
+      "adaptive_stop_rate": 0.175,
+      "correct": 35,
+      "total_tokens": 1907349.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 33,
+      "accuracy": 0.85,
+      "average_token_count": 39865.5125,
+      "easy_rate": 0.8,
+      "adaptive_stop_rate": 0.175,
+      "correct": 34,
+      "total_tokens": 1594620.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 34,
+      "accuracy": 0.9,
+      "average_token_count": 52742.528125,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.4,
+      "correct": 36,
+      "total_tokens": 2109701.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 35,
+      "accuracy": 0.875,
+      "average_token_count": 51010.678125,
+      "easy_rate": 0.675,
+      "adaptive_stop_rate": 0.275,
+      "correct": 35,
+      "total_tokens": 2040427.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 36,
+      "accuracy": 0.85,
+      "average_token_count": 45102.59375,
+      "easy_rate": 0.775,
+      "adaptive_stop_rate": 0.175,
+      "correct": 34,
+      "total_tokens": 1804103.75,
+      "binary_search_overhead": 120342.75
+    },
+    {
+      "max_sample_size": 37,
+      "accuracy": 0.9,
+      "average_token_count": 54277.878125,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.4,
+      "correct": 36,
+      "total_tokens": 2171115.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 38,
+      "accuracy": 0.9,
+      "average_token_count": 57196.2625,
+      "easy_rate": 0.5,
+      "adaptive_stop_rate": 0.45,
+      "correct": 36,
+      "total_tokens": 2287850.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 39,
+      "accuracy": 0.9,
+      "average_token_count": 58335.796875,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.4,
+      "correct": 36,
+      "total_tokens": 2333431.875,
+      "binary_search_overhead": 300856.875
+    },
+    {
+      "max_sample_size": 40,
+      "accuracy": 0.9,
+      "average_token_count": 57279.3625,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.4,
+      "correct": 36,
+      "total_tokens": 2291174.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 41,
+      "accuracy": 0.9,
+      "average_token_count": 57587.5375,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.4,
+      "correct": 36,
+      "total_tokens": 2303501.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 42,
+      "accuracy": 0.9,
+      "average_token_count": 57951.8875,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.4,
+      "correct": 36,
+      "total_tokens": 2318075.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 43,
+      "accuracy": 0.925,
+      "average_token_count": 59363.8375,
+      "easy_rate": 0.5,
+      "adaptive_stop_rate": 0.45,
+      "correct": 37,
+      "total_tokens": 2374553.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 44,
+      "accuracy": 0.9,
+      "average_token_count": 55912.2125,
+      "easy_rate": 0.7,
+      "adaptive_stop_rate": 0.25,
+      "correct": 36,
+      "total_tokens": 2236488.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 45,
+      "accuracy": 0.9,
+      "average_token_count": 55146.2125,
+      "easy_rate": 0.725,
+      "adaptive_stop_rate": 0.225,
+      "correct": 36,
+      "total_tokens": 2205848.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 46,
+      "accuracy": 0.925,
+      "average_token_count": 58628.378125,
+      "easy_rate": 0.525,
+      "adaptive_stop_rate": 0.425,
+      "correct": 37,
+      "total_tokens": 2345135.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 47,
+      "accuracy": 0.9,
+      "average_token_count": 58013.2125,
+      "easy_rate": 0.675,
+      "adaptive_stop_rate": 0.275,
+      "correct": 36,
+      "total_tokens": 2320528.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 48,
+      "accuracy": 0.9,
+      "average_token_count": 53106.803125,
+      "easy_rate": 0.75,
+      "adaptive_stop_rate": 0.225,
+      "correct": 36,
+      "total_tokens": 2124272.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 49,
+      "accuracy": 0.925,
+      "average_token_count": 59261.403125,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.425,
+      "correct": 37,
+      "total_tokens": 2370456.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 50,
+      "accuracy": 0.9,
+      "average_token_count": 56883.74375,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.35,
+      "correct": 36,
+      "total_tokens": 2275349.75,
+      "binary_search_overhead": 120342.75
+    },
+    {
+      "max_sample_size": 51,
+      "accuracy": 0.9,
+      "average_token_count": 58318.1125,
+      "easy_rate": 0.7,
+      "adaptive_stop_rate": 0.275,
+      "correct": 36,
+      "total_tokens": 2332724.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 52,
+      "accuracy": 0.925,
+      "average_token_count": 61433.0875,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.425,
+      "correct": 37,
+      "total_tokens": 2457323.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 53,
+      "accuracy": 0.925,
+      "average_token_count": 62479.3375,
+      "easy_rate": 0.5,
+      "adaptive_stop_rate": 0.475,
+      "correct": 37,
+      "total_tokens": 2499173.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 54,
+      "accuracy": 0.875,
+      "average_token_count": 51671.71875,
+      "easy_rate": 0.775,
+      "adaptive_stop_rate": 0.2,
+      "correct": 35,
+      "total_tokens": 2066868.75,
+      "binary_search_overhead": 120342.75
+    },
+    {
+      "max_sample_size": 55,
+      "accuracy": 0.9,
+      "average_token_count": 59264.3125,
+      "easy_rate": 0.7,
+      "adaptive_stop_rate": 0.275,
+      "correct": 36,
+      "total_tokens": 2370572.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 56,
+      "accuracy": 0.9,
+      "average_token_count": 62782.571875,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.35,
+      "correct": 36,
+      "total_tokens": 2511302.875,
+      "binary_search_overhead": 300856.875
+    },
+    {
+      "max_sample_size": 57,
+      "accuracy": 0.925,
+      "average_token_count": 62708.9375,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.425,
+      "correct": 37,
+      "total_tokens": 2508357.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 58,
+      "accuracy": 0.925,
+      "average_token_count": 59997.44375,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.425,
+      "correct": 37,
+      "total_tokens": 2399897.75,
+      "binary_search_overhead": 120342.75
+    },
+    {
+      "max_sample_size": 59,
+      "accuracy": 0.875,
+      "average_token_count": 54621.603125,
+      "easy_rate": 0.775,
+      "adaptive_stop_rate": 0.2,
+      "correct": 35,
+      "total_tokens": 2184864.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 60,
+      "accuracy": 0.925,
+      "average_token_count": 62095.878125,
+      "easy_rate": 0.55,
+      "adaptive_stop_rate": 0.425,
+      "correct": 37,
+      "total_tokens": 2483835.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 61,
+      "accuracy": 0.9,
+      "average_token_count": 62625.3375,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.35,
+      "correct": 36,
+      "total_tokens": 2505013.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 62,
+      "accuracy": 0.9,
+      "average_token_count": 61267.478125,
+      "easy_rate": 0.625,
+      "adaptive_stop_rate": 0.35,
+      "correct": 36,
+      "total_tokens": 2450699.125,
+      "binary_search_overhead": 180514.125
+    },
+    {
+      "max_sample_size": 63,
+      "accuracy": 0.9,
+      "average_token_count": 58166.5875,
+      "easy_rate": 0.75,
+      "adaptive_stop_rate": 0.225,
+      "correct": 36,
+      "total_tokens": 2326663.5,
+      "binary_search_overhead": 240685.5
+    },
+    {
+      "max_sample_size": 64,
+      "accuracy": 0.9,
+      "average_token_count": 60377.9625,
+      "easy_rate": 0.725,
+      "adaptive_stop_rate": 0.25,
+      "correct": 36,
+      "total_tokens": 2415118.5,
+      "binary_search_overhead": 240685.5
+    }
+  ]
+}
