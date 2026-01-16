@@ -2,14 +2,6 @@
 
 <div align="center">
 
-# ⚠️ **Repository Under Construction** ⚠️
-
-**This repository is currently under construction and the code is being reorganized.**  
-**We will complete the reconstruction and release the full code by January 16th, 2026.**  
-**Thank you for your patience!**
-
----
-
 </div>
 
 
