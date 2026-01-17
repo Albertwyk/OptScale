@@ -332,8 +332,8 @@ OptScale/
 │           └── sequential/    # Sequential generation completions
 │
 ├── generation_and_scoring/    # Generation and PRM scoring utilities
-│   ├── llama8b_series_model.py    # Model utilities for series generation
-│   ├── llama8b_correct_model.py    # Model utilities for correctness checking
+│   ├── llama8b_series_model.py    # Generate Sequential Rollout Completions (Data seen in our Google Drive)
+│   ├── llama8b_correct_model.py    # Generate Parallel Rollout Completions (Data seen in our Google Drive)
 │   └── prm_scoring.py              # PRM (Process Reward Model) scoring
 │
 ├── train_predictor/           # Predictor training for OptScale^t
