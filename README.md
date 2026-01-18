@@ -308,6 +308,7 @@ The `generation_and_scoring/` directory contains the following functions:
   ```bash
   python generation_and_scoring/prm_scoring.py --input_path {INPUT_PATH} --output_path {OUTPUT_PATH}
   ```
+  where the Path to the `{INPUT_PATH}` denotes the file path to the generated completions JSON file, while the `{OUTPUT_PATH}` denotes the file path to save the scored results.
 
 
 ### Running Baselines
