@@ -8,7 +8,7 @@
 [![Paper](https://img.shields.io/badge/Paper-AAAI%202026-blue)](https://arxiv.org/abs/2506.22376)
 [![Data](https://img.shields.io/badge/Data-Google%20Drive-green)](https://drive.google.com/drive/folders/1clbEyLvQWc3DPtBh7Jb-BTb4z7jYWWkr?usp=sharing)
 
-Official implementation of **OptScale**, a probabilistic framework for optimal inference-time scaling, accepted at **AAAI 2026**.
+Official implementation of **OptScale**, a probabilistic framework for optimal inference-time scaling, accepted by **AAAI 2026**.
 
 > ⭐ **NEW**: We release **pre-generated completion pools** to enable researchers to reproduce results and develop new algorithms without the need for extensive GPU resources! 
 
@@ -165,10 +165,10 @@ OptScale addresses the fundamental challenge of **inference-time scaling**: dete
 
 OptScale formulates inference-time scaling as a probabilistic optimization problem. Given a problem $x$ and model $M$, we aim to find the optimal sample size $N^*$ that maximizes the expected accuracy while considering computational cost.
 
-**OptScale<sup>0</sup> (MLE-based)**:
+**OptScale<sup>0</sup>**:
 Uses Maximum Likelihood Estimation to infer problem-specific parameters ($\mu$, $\sigma$) from a small number of observed samples (typically 10), then optimizes $N$ based on these estimates. This approach adapts to each problem's difficulty without requiring pre-training.
 
-**OptScale<sup>t</sup> (MAP-based with Predictor)**:
+**OptScale<sup>t</sup>**:
 Employs a learned neural predictor (based on Qwen-1.5B) to estimate problem difficulty parameters ($\mu$, $\sigma$) before generation. These predictions serve as priors for Maximum A Posteriori (MAP) estimation, enabling more efficient scaling decisions with fewer initial samples.
 
 ## Installation
@@ -236,8 +236,8 @@ OptScale/
 │           └── sequential/    # Sequential generation completions
 │
 ├── generation_and_scoring/    # Generation and PRM scoring utilities
-│   ├── run_para_inference.py    # Generate parallel rollout completions (Data can also be found in our Google Drive link)
-│   ├── run_seq_inference.py     # Generate sequential rollout completions (Data can also be found in our Google Drive link)
+│   ├── run_para_inference.py    # Generate parallel rollout completions (Data can also be found in Google Drive)
+│   ├── run_seq_inference.py     # Generate sequential rollout completions (Data can also be found in Google Drive)
 │   └── prm_scoring.py           # PRM scoring
 │
 ├── train_predictor/           # Predictor training for OptScale^t
@@ -298,7 +298,8 @@ The `generation_and_scoring/` directory contains the following functions:
         --max_n {MAX_N} \
         --benchmark_path {BENCHMARK_PATH} \
         --output_file {OUTPUT_FILE}
-   python generation_and_scoring/run_seq_inference.py --model_path {MODEL_PATH} \
+
+  python generation_and_scoring/run_seq_inference.py --model_path {MODEL_PATH} \
         --max_n {MAX_N} \
         --benchmark_path {BENCHMARK_PATH} \
         --output_file {OUTPUT_FILE}
