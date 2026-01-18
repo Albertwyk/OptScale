@@ -45,7 +45,7 @@ with open(completions_path, 'r') as f:
 baseline_results = []
 
 # Test different max_N values
-for max_N in range(1, 65):  # Test max_N from 1 to 8
+for max_N in range(1, 65):
     print(f"\nTesting with max_N = {max_N}")
     correct = 0
     entire_token_count = 0
