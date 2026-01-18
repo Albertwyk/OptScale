@@ -83,7 +83,7 @@ def evaluate_bon(val_texts, val_gt_answers, val_completions, val_completion_toke
             output = completions[highest_scores_idx]
             answer = get_answer(output)
             
-            if verify_extracted_answer(answer, val_gt_answers[idx]):
+            if verify_extracted_answer(val_gt_answers[idx], answer):
                 correct += 1
             entire_token_count += total_tokens
         
