@@ -42,8 +42,8 @@ For each dataset, three comparison plots are generated showing different perform
 
 The visualizations compare the following inference-time scaling approaches:
 
-1. **Best-of-N (BoN)**: Baseline that selects the best solution from N samples using an oracle verifier
-2. **Self-Consistency (SC)**: Majority voting across N solutions  
+1. **Best-of-N (BoN)**: Baseline that selects the best solution from N candidate solutions using a PRM as the verifier
+2. **Self-Consistency (SC)**: Majority voting across N candidate solutions  
 3. **MR-Thinking**: Sequential reasoning approach with N-step generation
 4. **Early-stopping SC (ESC)**: Self-consistency with early termination based on confidence
 5. **Adaptive SC (ASC)**: Self-consistency with adaptive sampling based on solution agreement
