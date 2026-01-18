@@ -6,6 +6,8 @@ import re
 import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
+
+
 class QwenMuSigmaPredictor(nn.Module):
     def __init__(self, model_name, freeze_base=True):
         super().__init__()
@@ -136,7 +138,7 @@ class LlamaMuSigmaPredictor(nn.Module):
 
 
 class TextDataset(Dataset):
-    def __init__(self, texts, labels, tokenizer, max_length=768): # Previously was 768
+    def __init__(self, texts, labels, tokenizer, max_length=768):
         self.texts = texts
         self.labels = labels
         self.tokenizer = tokenizer
@@ -166,7 +168,7 @@ class TextDataset(Dataset):
         
 
 class TextDatasetNoLabels(Dataset):
-    def __init__(self, texts, tokenizer, max_length=768): # Previously was 768
+    def __init__(self, texts, tokenizer, max_length=768):
         self.texts = texts
         self.tokenizer = tokenizer
         self.max_length = max_length
@@ -277,11 +279,6 @@ def get_answer(completion):
     extracted_answer = extract_last_boxed_answer(completion)
     # print(extracted_answer)
     return extracted_answer
-
-# def get_answer(completion):
-#     extracted_answer = extract_last_boxed_answer(completion)
-#     print(extracted_answer)
-#     return extracted_answer
 
 
 def truncated_normal_pdf(x, mu, sigma):
