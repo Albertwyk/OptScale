@@ -56,7 +56,7 @@ def run_prm_scoring(args):
         trust_remote_code=True,
     ).eval()
     
-    # Load Llama-3.1-8B-Instruct tokenizer for token counting
+    # Load DeepSeek-R1-Distill-Qwen-7B tokenizer for token counting
     tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/DeepSeek-R1-Distill-Qwen-7B", trust_remote_code=True)
     
     # Load generated completions
@@ -82,7 +82,7 @@ def run_prm_scoring(args):
             continue
             
         problem = item['problem']
-        completions = item['outputs']  # Changed from 'completions' to 'outputs'
+        completions = item['outputs']
         
         # Calculate completion tokens for each output using Llama tokenizer
         completion_tokens = []
