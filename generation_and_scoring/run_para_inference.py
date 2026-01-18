@@ -116,7 +116,7 @@ def main(args):
     print(f"Outputs saved to {args.output_file}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Run inference with think series')
+    parser = argparse.ArgumentParser(description='Run parallel inference for an LLM')
     parser.add_argument('--model_path', type=str, default="deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
                         help='Path to the model')
     parser.add_argument('--max_n', type=int, required=True,
