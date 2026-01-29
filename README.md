@@ -125,7 +125,7 @@ If you use our data pools in your research, please kindly cite as:
 - [Method](#method)
 - [Installation](#installation)
 - [Repository Structure](#repository-structure)
-- [Experiments](#experiments)
+- [How to Run](#how-to-run)
 - [Results](#results)
 - [Citation](#citation)
 - [License](#license)
@@ -270,13 +270,7 @@ OptScale/
 └── README.md                  # This file
 ```
 
-## Experiments
-
-
-### Data Preparation
-- Test prompts should be placed in `data/test_prompts/`
-- Pre-generated completions should be in `data/completions/r1_distill_qwen7b/parallel/` or `sequential/`
-- Update `path.json` files in each directory to point to your data paths
+## How to Run
 
 ### Configuration
 
@@ -284,17 +278,17 @@ Each directory contains a `path.json` file that specifies the locations of datas
 
 - `BoN_OptScale/path.json`: Paths for BoN and OptScale experiments
 - `SC/path.json`: Paths for Self-Consistency methods
-- `Seq/seq_path.json`: Paths for sequential baseline
+- `Seq/seq_path.json`: Paths for sequential scaling methods
 
 These files map dataset names to their prompt and completion file paths. Update them according to your data directory structure.
 
-### Generation and Scoring
+### Running Generation and Scoring
 
 The `generation_and_scoring/` directory contains the following functions:
 
-- **Model Inference**: `run_para_inference.py` and `run_seq_inference.py` provide model inference functions
+- **Model Inference**: `run_para_inference.py` and `run_seq_inference.py` provide model inference functions for generating completions
   ```bash
-   python generation_and_scoring/run_para_inference.py --model_path {MODEL_PATH} \
+  python generation_and_scoring/run_para_inference.py --model_path {MODEL_PATH} \
         --max_n {MAX_N} \
         --benchmark_path {BENCHMARK_PATH} \
         --output_file {OUTPUT_FILE}
@@ -304,11 +298,13 @@ The `generation_and_scoring/` directory contains the following functions:
         --benchmark_path {BENCHMARK_PATH} \
         --output_file {OUTPUT_FILE}
   ```
-- **PRM Scoring**: `prm_scoring.py` implements Process Reward Model (PRM) as the verifier for scoring solution quality
+  where the `{MODEL_PATH}` specifies the Huggingface model path (e.g., `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`) or the local model path, `{MAX_N}` denotes the maximum number of scaling (e.g., `64`), `{BENCHMARK_PATH}` specifies the benchmark data path (e.g., `data/test_prompts/aime24.json`), `{OUTPUT_FILE}` specifies the self-defined file path to save the generation outputs (e.g., `data/completions_qwen7b_par_aime24_64.json`).
+  
+- **PRM Scoring**: `prm_scoring.py` implements Process Reward Model (PRM) as the verifier for scoring the qualities of the generated completions
   ```bash
   python generation_and_scoring/prm_scoring.py --input_path {INPUT_PATH} --output_path {OUTPUT_PATH}
   ```
-  where the Path to the `{INPUT_PATH}` denotes the file path to the generated completions JSON file, while the `{OUTPUT_PATH}` denotes the file path to save the scored results.
+  where the `{INPUT_PATH}` denotes the file path of the generated completions JSON file (e.g., `data/completions_qwen7b_par_aime24_64.json`), while the `{OUTPUT_PATH}` specifies the self-defined file path to save the scored results (e.g., `data/scored_qwen7b_par_aime24_64.json`).
 
 
 ### Running Baselines
